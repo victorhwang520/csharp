@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    //Sum 2 numbers
+    static void Main()
+    {
+        Console.Write("Write the first number: ");
+        int a = int.Parse(Console.ReadLine());
+
+        Console.Write("Write the second number: ");
+        int b = int.Parse(Console.ReadLine());
+
+        int soma = a + b;
+
+        Console.WriteLine("The sum is: " + soma);
+    }
+}
