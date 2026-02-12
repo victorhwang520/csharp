@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+    //Number even or odd
+    static void Main()
+    {
+        Console.Write("Digit a number: ");
+        long a = long.Parse(Console.ReadLine());
+
+        if (a % 2 == 0)
+        {
+            Console.WriteLine("The number is even");
+        }
+        else
+        {
+            Console.WriteLine("The number is odd");
+        }
+    }
+}
