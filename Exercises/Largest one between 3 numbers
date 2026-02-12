@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+    //Largest one between 3 numbers 
+    static void Main()
+    {
+        Console.Write("Type the first number: ");
+        int a = int.Parse(Console.ReadLine());
+
+        Console.Write("Type the second number: ");
+        int b = int.Parse(Console.ReadLine());
+
+        Console.Write("Type the third number: ");
+        int g = int.Parse(Console.ReadLine());
+
+        int largest = a;
+
+        if (b > largest)
+        {
+            largest = b;
+        }
+        if (g > largest)
+        {
+            largest = g;
+        }
+        Console.WriteLine("The largest is: " + largest);
+    }
+}
