@@ -8,13 +8,13 @@ class Program
         Console.Write("Type your age: ");
         int a = int.Parse(Console.ReadLine());
 
-        if (a >= 18)
+        if (a < 18)
         {
-            Console.WriteLine("Legal age");
+            Console.WriteLine("Minor age");
         }
         else
         {
-            Console.WriteLine("Minor age");
+            Console.WriteLine("Legal age");
         }    
     }
 }
