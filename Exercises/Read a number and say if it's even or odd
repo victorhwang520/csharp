@@ -1,0 +1,30 @@
+using System;
+
+class Program
+{
+    //Read a number and say if it's even or odd
+    static void Main()
+    {
+        long a;
+        while (true)
+        {
+            Console.Write("Type the number: ");
+            string input = Console.ReadLine();
+
+            if (!long.TryParse(input, out a))
+            {
+                Console.WriteLine("Digit a valid number");
+                continue;
+            }
+            break;
+        }
+        if (a % 2 == 0)
+        {
+            Console.WriteLine("The number is even");
+        }
+        else
+        {
+            Console.WriteLine("The number is odd");
+        }
+    }
+}
