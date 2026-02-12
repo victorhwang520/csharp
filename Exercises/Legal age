@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+    //Legal age
+    static void Main()
+    {
+        Console.Write("Type your age: ");
+        int a = int.Parse(Console.ReadLine());
+
+        if (a >= 18)
+        {
+            Console.WriteLine("Legal age");
+        }
+        else
+        {
+            Console.WriteLine("Minor age");
+        }    
+    }
+}
