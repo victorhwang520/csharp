@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    //Student grade
+    static void Main()
+    {
+        Console.Write("Write the first grade: ");
+        int a = int.Parse(Console.ReadLine());
+
+        if (a >= 7)
+        {
+            Console.WriteLine("The grade is " + a + ", the student is approved");
+        }
+        else if (a >= 5)
+        {
+            Console.WriteLine("The grade is " + a + ", the student is in remedial classes");
+        }
+        else
+        {
+            Console.WriteLine("The grade is " + a + ", the student is repproved");
+        }
+    }
+}
