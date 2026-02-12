@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    //Multiplication table
+    static void Main()
+    {
+        Console.Write("Type a number: ");
+        int a = int.Parse(Console.ReadLine());
+
+        for (int i = 1; i <= 10; i++)
+        {
+            Console.WriteLine(a + " * " + i + " = " + (a * i));
+        }
+    }
+}
